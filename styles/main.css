@@ -1,0 +1,19 @@
+.container {
+	
+	background-color: pink;
+}
+
+.row div {
+	border: 1px dotted black;
+	height: 50px;
+}
+
+.section {
+	min-height: 1000px;
+	overflow: hidden;
+	position: relative;
+	padding-top: 80px;
+}
+.section:nth-child(even) {
+	background-color: #ccc;
+}
